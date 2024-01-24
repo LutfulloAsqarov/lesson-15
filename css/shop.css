@@ -54,3 +54,24 @@
     font-weight: 400;
     line-height: 28px;
 }
+
+
+@media(max-width:800px) {
+    .shop__info .title {
+        font-size: 40px;
+        
+    }
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width:530px){
+    .card__title {
+        font-size: 26px;
+    }
+}

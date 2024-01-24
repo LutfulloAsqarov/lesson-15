@@ -15,18 +15,22 @@
         />
     </head>
     <body>
+        <a href="./index.html" id="backtop">
+            <img src="./images/backtop.svg" alt="" />
+        </a>
+
         <header>
             <nav>
                 <div class="container nav__container df">
                     <div class="nav__logo">
                         <a href="index.html">
                             <img
-                            src="./images/header/nav-logo-dark.svg"
-                            alt="logo"
-                        />
+                                src="./images/header/nav-logo-dark.svg"
+                                alt="logo"
+                            />
                         </a>
                     </div>
-                    <ul class="nav__list df">
+                    <ul class="nav__list df" id="navbar-responsive">
                         <li class="nav__item">
                             <a href="#" class="nav__link">Home</a>
                         </li>
@@ -37,19 +41,22 @@
                             <a href="#" class="nav__link">Team</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Shop</a>
+                            <a href="#shop" class="nav__link">Shop</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Pages</a>
+                            <a href="#pages" class="nav__link">Pages</a>
                         </li>
+                        <button id="navbar-close">
+                            <img src="images/close.svg" alt="close" />
+                        </button>
                     </ul>
                     <div class="nav__btns df">
                         <button id="mode-btn">
                             <img src="images/light.svg" alt="" />
                         </button>
                         <button class="nav__btn btn">Contact Us</button>
-                        <button class="nav__hamburger">
-                            <i class="fa-solid fa-bars" style="color: #fff"></i>
+                        <button class="nav__hamburger" id="navbar-open">
+                            <img src="./images/menu.svg" alt="" />
                         </button>
                     </div>
                 </div>
@@ -86,7 +93,7 @@
                 </div>
             </section>
         </header>
-        <!-- <main>
+        <main>
             <section id="shop">
                 <div class="container shop__container df">
                     <div class="shop__info df">
@@ -169,52 +176,65 @@
                                 <p>Latest News & Articles</p>
                             </div>
                         </div>
-                        <button class="pages__btn  btn">Read More</button>
+                        <button class="pages__btn btn">Read More</button>
                     </div>
                     <div class="pages__bottom df">
                         <div class="pages__bottom__left">
-                            <img src="./images/pages/left.png" alt="img">
-                            <p class="title__info">
-                                April 2, 2021
+                            <img src="./images/pages/left.png" alt="img" />
+                            <p class="title__info">April 2, 2021</p>
+                            <p class="left__desc">
+                                Esports Group teams up with the Indianapolis
+                                Colts
                             </p>
-                            <p class="left__desc">Esports Group teams up with the Indianapolis Colts</p>
                         </div>
                         <div class="pages__bottom__right">
                             <div class="right__cards df">
                                 <div class="right__card">
-                                    <img src="./images/pages/right-1.png" alt="img">
-                                    <p class="title__info">
-                                        April 2, 2021
+                                    <img
+                                        src="./images/pages/right-1.png"
+                                        alt="img"
+                                    />
+                                    <p class="title__info">April 2, 2021</p>
+                                    <p class="card__desc">
+                                        NAVI reveals s1mple fifth anniversary
                                     </p>
-                                    <p class="card__desc">NAVI reveals s1mple fifth anniversary</p>
                                 </div>
                                 <div class="right__card">
-                                    <img src="./images/pages/right-2.png" alt="img">
-                                    <p class="title__info">
-                                        April 2, 2021
+                                    <img
+                                        src="./images/pages/right-2.png"
+                                        alt="img"
+                                    />
+                                    <p class="title__info">April 2, 2021</p>
+                                    <p class="card__desc">
+                                        NAVI reveals s1mple fifth anniversary
                                     </p>
-                                    <p class="card__desc">NAVI reveals s1mple fifth anniversary</p>
                                 </div>
                                 <div class="right__card">
-                                    <img src="./images/pages/right-3.png" alt="img">
-                                    <p class="title__info">
-                                        April 2, 2021
+                                    <img
+                                        src="./images/pages/right-3.png"
+                                        alt="img"
+                                    />
+                                    <p class="title__info">April 2, 2021</p>
+                                    <p class="card__desc">
+                                        NAVI reveals s1mple fifth anniversary
                                     </p>
-                                    <p class="card__desc">NAVI reveals s1mple fifth anniversary</p>
                                 </div>
                                 <div class="right__card">
-                                    <img src="./images/pages/right-4.png" alt="img">
-                                    <p class="title__info">
-                                        April 2, 2021
+                                    <img
+                                        src="./images/pages/right-4.png"
+                                        alt="img"
+                                    />
+                                    <p class="title__info">April 2, 2021</p>
+                                    <p class="card__desc">
+                                        NAVI reveals s1mple fifth anniversary
                                     </p>
-                                    <p class="card__desc">NAVI reveals s1mple fifth anniversary</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-        </main> -->
+        </main>
         <script src="js/script.js"></script>
     </body>
 </html>
