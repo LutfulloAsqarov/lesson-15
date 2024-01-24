@@ -1,0 +1,74 @@
+header {
+    background: #000;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    padding-top: 20px;
+}
+
+.nav__list {
+    gap: 60px;
+}
+
+.nav__btns {
+    gap: 24px;
+}
+
+.nav__link {
+    color: #fff;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    transition: .4s;
+
+}
+
+.nav__item:hover .nav__link {
+    color: #FAC422;
+}
+
+#mode-btn {
+    background-color: transparent;
+}
+
+#mode-btn img {
+    width: 48px;
+    height: 48px;
+}
+
+.hero__team__btn {
+    border: transparent;
+}
+
+
+.nav__hamburger {
+    display: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+
+.light .nav__btn {
+    border: 1px solid #000;
+}
+
+
+@media(max-width:1060px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__hamburger {
+        display: block;
+    }
+}
+
+@media(max-width:600px) {
+    .nav__btn {
+        display: none;
+    }
+}
